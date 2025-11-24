@@ -1,0 +1,94 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 90%;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    color: #007bff; /* آبی گیت‌هاب */
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.hero-section {
+    background-color: #e9ecef;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.hero-section h2 {
+    color: #28a745; /* سبز جذاب */
+    font-size: 1.8em;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.features li {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    min-width: 180px;
+    border-left: 4px solid #ffc107; /* زرد برای جلب توجه */
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.github-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
